@@ -76,3 +76,8 @@ tools/simulator/simulator.db
 dump.rdb
 *.rdb
 .DS_Store
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
